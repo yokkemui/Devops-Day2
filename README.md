@@ -1,6 +1,6 @@
 # Devops-Day2
 follow Uli Exercise
-MongoDB – Getting Started
+<h1>MongoDB – Getting Started </h1>
 You Need:
 Linux or Mac machine
 Docker installed & running
@@ -8,6 +8,7 @@ Terminal Application
 Or simply use the Google Cloud Shell (free!)
 <br>
 1 – Run MongoDB with Interactive Shell
+
 git clone https://github.com/u1i/mongodb-getting-started
 
 cd mongodb-getting-started
