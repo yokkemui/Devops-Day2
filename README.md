@@ -6,13 +6,14 @@ Linux or Mac machine
 Docker installed & running
 Terminal Application
 Or simply use the Google Cloud Shell (free!)
+<br>
 1 – Run MongoDB with Interactive Shell
 git clone https://github.com/u1i/mongodb-getting-started
 
 cd mongodb-getting-started
 
 ./run-mongo.sh
-
+<br>
 2 – Databases
 Which DB am I using?
 db
@@ -31,6 +32,7 @@ use class01
 
 switched to db class01
 
+<br>
 3 – Create a Collection & Add Data <br>
 db.students.insert({"name": "Sally", "email": "sallyml91@yahoo.com"})
 
