@@ -16,7 +16,7 @@ cd mongodb-getting-started
 ./run-mongo.sh
 <br>
 2 – Databases
-Which DB am I using?
+Which DB am I using? <br>
 db
 
 test
