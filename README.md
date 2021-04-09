@@ -31,11 +31,11 @@ use class01
 
 switched to db class01
 
-3 – Create a Collection & Add Data
+3 – Create a Collection & Add Data <br>
 db.students.insert({"name": "Sally", "email": "sallyml91@yahoo.com"})
 
 db.students.insert({"name": "Jack", "email": "jack@gmail.com"})
-
+<br>
 4 – Query Data
 Get All Data in a Collection
 db.students.find()
@@ -43,6 +43,7 @@ db.students.find()
 { "_id" : ObjectId("5f5c85f67eaad73223e85fc3"), "name" : "Sally", "email" : "sallyml91@yahoo.com" }
 { "_id" : ObjectId("5f5c85f87eaad73223e85fc4"), "name" : "Jack", "email" : "jack@gmail.com" }
 
+<br>
 db.students.find().pretty()
 
 
@@ -52,6 +53,7 @@ db.students.find({"name": "Jack"})
 
 { "_id" : ObjectId("5f5c85f87eaad73223e85fc4"), "name" : "Jack", "email" : "jack@gmail.com" }
 
+<br>
 5 – Deleting Stuff
 Delete a Document
 db.students.remove({"name": "Jack"})
